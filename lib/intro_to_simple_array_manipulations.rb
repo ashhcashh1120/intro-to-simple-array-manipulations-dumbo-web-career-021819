@@ -31,5 +31,5 @@ def using_insert(list_of_esoteric_programming_languages, another_esoteric_langua
 end
 
 def using_uniq(another_esoteric_language)
-  @new_array = @another_esoteric_language.uniq
+  new_array = captain_planet_and_the_planeteers.uniq
 end
