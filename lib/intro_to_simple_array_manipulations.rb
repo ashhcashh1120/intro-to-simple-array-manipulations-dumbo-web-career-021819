@@ -37,3 +37,14 @@ end
 def using_flatten(private_colleges_in_newyork)
   flat_array = private_colleges_in_newyork.flatten
 end
+
+def using_delete(the_list, the_element)
+  the_list.delete(the_element)
+end
+
+def using_delete_at(famous_robots, integer)
+  integer = 2
+  deleted_robot = famous_robots.delete_at(integer)
+end
+  
+  
