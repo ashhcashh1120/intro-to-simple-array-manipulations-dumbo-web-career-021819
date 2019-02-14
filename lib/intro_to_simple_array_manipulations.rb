@@ -29,3 +29,7 @@ end
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
   @new_array = @list_of_esoteric_programming_languages.insert(4,another_esoteric_language)
 end
+
+def using_uniq(another_esoteric_language)
+  @new_array = @another_esoteric_language.uniq
+end
