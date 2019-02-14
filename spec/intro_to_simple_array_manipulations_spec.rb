@@ -103,7 +103,7 @@ describe "#using_insert" do
   before(:each) do 
     @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
     @another_esoteric_language = "Malbolge"
-    @new_array = using_insert(@list_of_esoteric_programming_languages, @another_esoteric_language)
+    another_esoteric_language = using_insert(@list_of_esoteric_programming_languages, @another_esoteric_language)
   end
 
   it "takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array" do 
